@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Contador.css';
 
-export default function App() {
+export default function Contador() {
   const [count, setCount] = useState(0);
 
   function incrementar() {
