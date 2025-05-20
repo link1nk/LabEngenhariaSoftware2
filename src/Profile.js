@@ -48,7 +48,7 @@ export default function Profile() {
       {showWarning && <p>Aviso!</p>}
       {status}
       <ul>{listItems}</ul>
-      <Recipe drinkers={1} />
+      <Recipe drinkers={3} />
     </div>
   );
 }
