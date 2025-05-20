@@ -18,6 +18,7 @@ export default function Letreiro() {
 
   return (
     <div className="letreiro">
+      <h1>Letreiro</h1>
       <h1>{mostrar}</h1>
       <br />
     </div>
