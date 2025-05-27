@@ -10,6 +10,7 @@ import List1 from "./List1";
 import List2 from "./List2";
 import ShapeEditor from "./ShapeEditor";
 import CounterList from "./CounterList";
+import BucketList from "./BucketList";
 
 function Atividade04() {
     return(
@@ -27,6 +28,7 @@ function Atividade04() {
             <List2 /><br/><br/>
             <ShapeEditor /><br/><br/>
             <CounterList /><br/><br/>
+            <BucketList /><br/><br/>
         </> 
 
     );
