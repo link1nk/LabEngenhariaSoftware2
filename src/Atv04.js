@@ -26,6 +26,8 @@ function Atividade04() {
             <Form3 /><br/><br/>
             <List1 /><br/><br/>
             <List2 /><br/><br/>
+            <List3 /><br/><br/>
+            <List4 /><br/><br/>
             <ShapeEditor /><br/><br/>
             <CounterList /><br/><br/>
             <BucketList /><br/><br/>
