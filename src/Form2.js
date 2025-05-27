@@ -8,43 +8,49 @@ export default function Form2() {
     });
 
     function handleFirstNameChange(e) {
-        person.firstName = e.target.value;
+        setPerson({ ...person, firstName: e.target.value });
     }
 
     function handleLastNameChange(e) {
-        person.lastName = e.target.value;
+        setPerson({ ...person, lastName: e.target.value });
     }
 
     function handleEmailChange(e) {
-        person.email = e.target.value;
+        setPerson({ ...person, email: e.target.value });
     }
 
     return (
-        <>
-            <label>
+        <div className='form2-principal'>
+            <label className='form2-label'>
                 First Name:
-                <input  value={person.firstName}
+                <input  
+                    className='form2-input'
+                    value={person.firstName}
                     onChange={handleFirstNameChange}
                 />
             </label>
-            <label>
+            <label className='form2-label'>
                 Last Name:
-                <input  value={person.lastName}
+                <input 
+                    className='form2-input'
+                    value={person.lastName}
                     onChange={handleLastNameChange}
                 />
             </label>
-            <label>
+            <label className='form2-label'>
                 Email:
-                <input  value={person.email}
+                <input  
+                    className='form2-input'
+                    value={person.email}
                     onChange={handleEmailChange}
                 />
             </label>
-            <p>
+            <p className='form2-print'>
                 {person.firstName}{' '}
                 {person.lastName}{' '}
                 ({person.email})
             </p>
-        </>
+        </div>
     )
 
 
