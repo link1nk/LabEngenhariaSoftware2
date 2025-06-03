@@ -1,4 +1,4 @@
-import { useState } from 'react';Add commentMore actions
+import { useState } from 'react'
 import Chat from './Chat.js';
 import ContactList from './ContactList.js';
 

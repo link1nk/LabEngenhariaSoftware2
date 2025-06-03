@@ -1,5 +1,4 @@
-import { useState } from 'react';Add commentMore actions
-
+import { useState } from 'react'
 export default function Accordion() {
     const [activeIndex, setActiveIndex] = useState(0);
     return (

@@ -1,4 +1,4 @@
-import { useState } from 'react';Add commentMore actions
+import { useState } from 'react'
 
 export default function FormTicket() {
     const [firstName, setFirstName] = useState('');
@@ -33,4 +33,4 @@ export default function FormTicket() {
             <p>Your ticket will be issued to: <b>{fullName}</b></p>
         </>
     );
-}Add comment
+}
