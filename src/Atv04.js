@@ -33,6 +33,7 @@ function Atividade04() {
             <ShapeEditor /><br/><br/>
             <CounterList /><br/><br/>
             <BucketList /><br/><br/>
+            <Link to="/">Voltar</Link>
         </> 
 
     );
